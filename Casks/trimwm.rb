@@ -4,8 +4,7 @@ cask "trimwm" do
   version "0.6.1"
   sha256 "4f381096bf775615db72569283b27f55c48644c52b8bb3352e3bb4e4c6f8bd47"
 
-  url "https://github.com/cornz/TrimWM/releases/download/v#{version}/TrimWM-#{version}.zip",
-      verified: "github.com/cornz/TrimWM/"
+  url "https://github.com/cornz/TrimWM/releases/download/v#{version}/TrimWM-#{version}.zip"
   name "TrimWM"
   desc "Fast, animation-free tiling window manager with BSP and scrolling columns"
   homepage "https://github.com/cornz/TrimWM"
