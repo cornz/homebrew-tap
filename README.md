@@ -1,6 +1,6 @@
 # Homebrew Tap
 
-Homebrew casks for macOS apps maintained by [cornz](https://github.com/cornz).
+Homebrew packages for macOS apps and tools maintained by [cornz](https://github.com/cornz).
 
 ## Apps
 
@@ -53,3 +53,19 @@ brew uninstall --cask --zap trimwm
 The casks install signed application bundles into `/Applications`. DevControlRoom
 supports macOS 14 Sonoma or newer on Apple Silicon and Intel. TrimWM's current
 requirements are documented in its project repository.
+
+## downloadwatch
+
+[downloadwatch](https://github.com/cornz/downloadwatch) copies completed downloads
+to the clipboard as native file references. Its ARM64 release is signed and
+notarized. See the project README for tested macOS versions and limits.
+
+```sh
+brew install cornz/tap/downloadwatch
+brew services start downloadwatch
+brew services stop downloadwatch
+brew uninstall downloadwatch
+```
+
+Use these commands without `sudo`. Homebrew manages the binary and user
+LaunchAgent. Do not use the project's manual installer with Homebrew.
