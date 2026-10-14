@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "trimwm" do
-  version "0.9.1"
-  sha256 "a9144bfe7492a8794452c80e456a1e640ea955b5b3fe1187d50236ff5a41aca0"
+  version "0.9.2"
+  sha256 "747ed2e80711cc3bbadff70ca585df6591fbe636136589cb712d2217dc5229f1"
 
   url "https://github.com/cornz/TrimWM/releases/download/v#{version}/TrimWM-#{version}.zip"
   name "TrimWM"
