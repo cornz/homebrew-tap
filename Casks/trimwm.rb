@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 cask "trimwm" do
-  version "0.8.1"
-  sha256 "4cbac0274f57db442b1d57f5b8d9a72ba33e4ea8a739522d9d449a4283ea53f7"
+  version "0.9.0"
+  sha256 "353756ee6c48496dfe58322afb4c2be690177f070d86498420ab2f8742e31d89"
 
   url "https://github.com/cornz/TrimWM/releases/download/v#{version}/TrimWM-#{version}.zip"
   name "TrimWM"
-  desc "Fast, animation-free tiling window manager with BSP and scrolling columns"
+  desc "Fast, animation-free tiling window manager with BSP, scrolling columns, and tabs"
   homepage "https://github.com/cornz/TrimWM"
 
   depends_on arch: :arm64
